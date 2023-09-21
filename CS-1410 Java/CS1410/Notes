@@ -3,3 +3,89 @@ Java Notes:
 java is a compiled language
 all code in Jav goes in a class.
 every program has to start execution with a main method.
+	Class Meeting 3
+control Structures
+-if statements
+Java only associates one line of code following an If statement, ans anything else needed 
+to have brackets to be grouped with the if statement. also- dont use ';' if the if statment 
+is still being used.
+-while loops
+make sure progress is made towards the loop finishing.
+-Objects in Java
+objects hold data that can be used through methods. Dot notation is how we talk to objects.
+never use '==' to compare strings instead use "string.equals("name2")"
+-Scanners
+a scanner object allows the processing and use of input, and breaks them into tokens
+when tokens are items seperated by whitespaceu.
+#scanner is imported from "Java.util.scanner;"
+".next" returns next token as a string. seems to use a queue. Scanner is a tool for
+reading scanner. "Hasnext" returns a boolian, but does not progress a scanner location.
+Hasbext should always be used with a next command.
+	Class Meeting 4
+-String vs. scanner.
+not the same___ 
+-For LOOPS
+java syntax for loop "for(init; continuation; increment)"
+example: for(int counter = 1; counter <= 3; counter+1){stuff}
+*scope can always go down but cant go up, (you can't use a varible declated inside a for loop outside a for loop)
+-Arrays
+each item in an array is called an element, and they are 0 indexed in Java. 
+example "int[] variableName = new int[5];" or ".. = { 1, 2, 17};
+to print an array use "Arrays.toString(arrayName)" 
+-Enhanced FOr loop
+aka a "for each loop"
+syntax: "for(elementType name: arrayRefrence)"
+example "
+	Class 5?
+-Errors
+1.Syntax or compiler error
+2.Semantic/logic error
+3. Runtime error/Eception error
+ex. divide by 0, 
+-Try/catch
+handling exceptions, use "try, and catch" 
+-Reading from Files
+Scanner objects can be used to read from files.
+ex. "
+String filename = "sample_text.txt";
+File file = new File(filename);
+Scanner fielInput = new Scanner(file);
+"
+-throws
+declares that a method may throw an exeption, is a powerful comment type response
+that puts the responiblity to watch for errors on someone else.
+-Java Doc 
+ex "/** blah blah blah */
+format is small summary, then "@paramter" and discription 
+		Class 6
+when swapping two values, three values are needed (temparary value to stop data loss.
+ex.
+* if switching values in an array only do the first half, that way you dont double swap values
+- primative vs. refrence
+primative variables hold a value in stack, refrence to stack refrence to a value in heap, (heap and stack memory.)
+two ways to make a new array are "new int[]" or {kjadsfhf,dsffjka,dfaasds}
+-calling methods
+if it is a class in the same package, you can just use class name
+if it in a class in a seperate package, use "packageName.className", or use an import at the beginning.
+- Unit Testing
+normal, edge, and corner cases 
+-JUnit
+can be added in side bar, leave defaults, and add a name.
+
+	Class 7
+"AssertArrayEquals(expectedArray, outputArray)" compares an expected and actual array
+--Method overloading
+two methods with the same name, but different versions/parameters. 
+-OOP
+classes and objects, Encpasulation- data is stored in a class and protected from other methods.
+different objects make up a class.
+**see lecture slides for class and constructor examples and layout.
+ex. Person p = new Person();
+null means no object has been built yet;
+public can be used by anyone, but private can only be used by the class in ehich it has been defined
+make any instance variables private to ensure encapsilation.
+"getter" and "setter"
+calling an instance methos requires an instance of a class
+
+
+
