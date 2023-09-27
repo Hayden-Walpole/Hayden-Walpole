@@ -91,6 +91,11 @@ instance varibles should be set to private (varibles used in class)
 classes are useful to put barriors between things. 
 use ".equals" to compare two objects
 objects can be parameters as well as instance variables
-
+		Class 10
+"public static final double PI" is a constant that will never change
+2D array, 3X2 array is 3 rows 2 columns
+creating " double[][] matrix = new double[2][2];
+or ".... = {{1,2},{2,3}};
+or matix[2] = double[{2,3}][] to only do one row
 
 

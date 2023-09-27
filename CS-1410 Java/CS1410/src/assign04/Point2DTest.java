@@ -1,15 +1,23 @@
 package assign04;
+/**contains tests for the Point2D class
+ * @author Hayden Walpole
+ * @version Sept. 25 2023
+ */
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 public class Point2DTest {
-	
 	@Test
 	public void testGetX() {
 		Point2D location = new Point2D(-43, 55);
 		assertEquals(-43, location.getX());
+	}
+	@Test
+	public void testGetY() {
+		Point2D location = new Point2D(17, 20);
+		assertEquals(20,location.getY());
 	}
 	
 	@Test
