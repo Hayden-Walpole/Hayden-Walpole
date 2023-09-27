@@ -86,6 +86,11 @@ public can be used by anyone, but private can only be used by the class in ehich
 make any instance variables private to ensure encapsilation.
 "getter" and "setter"
 calling an instance methos requires an instance of a class
+		Class 9?
+instance varibles should be set to private (varibles used in class)
+classes are useful to put barriors between things. 
+use ".equals" to compare two objects
+objects can be parameters as well as instance variables
 
 
 

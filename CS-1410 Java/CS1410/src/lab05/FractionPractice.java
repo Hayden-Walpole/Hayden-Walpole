@@ -9,7 +9,7 @@ public class FractionPractice {
 		Fraction threeFourths = new lab05.Fraction(3,4);
 		Fraction one = new lab05.Fraction(1);
 		System.out.print(threeFourths.toString());
-		double two = one.addOne();
+		one.addOne();
 		System.out.print(two);
 		
 		

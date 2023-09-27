@@ -19,7 +19,7 @@ public class Fraction {
 		this.denominator = 1;
 	}
 	/**
-	 * This constructor builds Fraction object over 1 (num/1).
+	 * This constructor builds Fraction object over 1 (num/1)
 	 */
 	public Fraction(int num) {
 		this.numerator = num;
@@ -60,8 +60,8 @@ public class Fraction {
 	 * 
 	 * @return the decimal-point equivalent
 	 */
-	public addOne() {
-		(this.numerator + this.denominator) / (double) this.denominator;
+	public Fraction addOne() {
+		(this.numerator + this.denominator) / this.denominator;
 	}
 	/**
 	 * This method calculates the decimal-point equivalent of this Fraction object.
@@ -94,5 +94,31 @@ public class Fraction {
 		Fraction otherFraction = (Fraction) other;
 		return this.numerator == otherFraction.numerator && 
 				this.denominator == otherFraction.denominator;
+	}
+	/**
+	 * This method computes the GCD of this Fraction object's numerator and denominator.
+	 * 
+	 * @return the GCD
+	 */
+	private int gcd() {
+		int t = 0
+		int a = this.numerator
+		int b = this.denominator
+		while (b!=0) {
+		   t=b;
+		   b= a%b;
+		   a=t;
+		}
+		return a;
+	}
+		
+	/**
+	 * This method reduced this Fraction object to its simplest form.
+	 */
+	public void reduce() {
+		int gcd= gcd();
+		int newNum = this.numerator/gcd;
+		int newDen = this.denominator/gcd;
+		
 	}
 }
