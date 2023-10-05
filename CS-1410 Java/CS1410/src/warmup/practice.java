@@ -3,15 +3,17 @@ package warmup;
 import java.util.Arrays;
 
 public class practice {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] vals= {1,2,3,4};
-		multiplyArray(vals,7);
-		System.out.print(Arrays.toString(vals));
+	public static int[][] rotateLeft(int[][] arr){
+		int dim = arr.length;
+		int[][] rotatedArray=new int[Dim][Dim];
+		for (int r=0; r<dim-1;r++) {
+			for (int c=0; c<dim-1;c++) {
+				rotatedArray[r][c] = arr[c][dim-(r+1)];
+			}
+		}
+		return rotatedArray;
 	}
-	public static void multiplyArray(int[] array, int number) {
-		for(int i = 0; i< array.length; i++)
-			array[i]= array[i]*number;
-	}
+	
+		
+	
 }

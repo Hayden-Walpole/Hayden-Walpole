@@ -54,6 +54,7 @@ Scanner fielInput = new Scanner(file);
 -throws
 declares that a method may throw an exeption, is a powerful comment type response
 that puts the responiblity to watch for errors on someone else.
+"if (case.......) throw new IllegalArgumentExeption("Error, input array was ...")
 -Java Doc 
 ex "/** blah blah blah */
 format is small summary, then "@paramter" and discription 
@@ -97,5 +98,50 @@ objects can be parameters as well as instance variables
 creating " double[][] matrix = new double[2][2];
 or ".... = {{1,2},{2,3}};
 or matix[2] = double[{2,3}][] to only do one row
+
+		CLass 11?
+Basic arrays have a fixed length for array.
+-----Dynamic arrays
+dynamic arrays - copys data of old array to a nee array object
+  to create a dynamic array class we need (.length, .toString, .create, .equals, .get@index, .set@index)
+  also might like "add, delete, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
